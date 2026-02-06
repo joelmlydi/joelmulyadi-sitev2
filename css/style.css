@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #000;
+    background: #fff;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+/* Desktop layout */
+@media (min-width: 769px) {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        gap: 80px;
+    }
+    
+    .content {
+        flex: 1;
+        max-width: 600px;
+    }
+    
+    .sidebar {
+        min-width: 140px;
+        text-align: right;
+        order: 2;
+    }
+}
+
+/* Mobile layout */
+@media (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    
+    .sidebar {
+        order: 1;
+        text-align: left;
+        margin-bottom: 30px;
+    }
+    
+    .content {
+        order: 2;
+    }
+}
+
+.profile-photo {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.main-text p {
+    margin-bottom: 15px;
+}
+
+.main-text ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.main-text li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #00e;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #551a8b;
+}
+
+a:hover {
+    color: #00e;
+}
+
+.sidebar h1 {
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 5px;
+    color: #000;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    margin-bottom: 3px;
+}
+
+.sidebar a {
+    font-size: 15px;
+}
+
+/* Page-specific styles */
+.page-title {
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+.thought-item, .question-item, .reading-item {
+    margin-bottom: 35px;
+}
+
+.thought-title, .reading-title {
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 6px;
+}
+
+.thought-date {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.question-text {
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 6px;
+}
+
+.question-note {
+    color: #666;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.reading-quote {
+    margin-left: 20px;
+    padding-left: 15px;
+    border-left: 2px solid #ddd;
+    color: #444;
+    margin-top: 10px;
+    font-size: 14px;
+}

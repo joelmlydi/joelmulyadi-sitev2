@@ -1,0 +1,7 @@
+.DS_Store
+*.swp
+*.swo
+*~
+.cache
+.netlify
+node_modules/
