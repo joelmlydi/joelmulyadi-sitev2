@@ -84,7 +84,7 @@ a {
 }
 
 a:visited {
-    color: #551a8b;
+    color: #00e;
 }
 
 a:hover {
@@ -96,6 +96,11 @@ a:hover {
     font-weight: normal;
     margin-bottom: 5px;
     color: #000;
+}
+
+.sidebar h1 a {
+    color: #000;
+    text-decoration: none;
 }
 
 .sidebar ul {
