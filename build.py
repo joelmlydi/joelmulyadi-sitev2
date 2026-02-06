@@ -66,7 +66,6 @@ def thought_template(title, date, content):
         <nav class="sidebar">
             <h1>Joel Mulyadi</h1>
             <ul>
-                <li><a href="/index.html">Home</a></li>
                 <li><a href="/about.html">About</a></li>
                 <li><a href="/thoughts.html">Thoughts</a></li>
                 <li><a href="/questions.html">Questions</a></li>
@@ -141,7 +140,6 @@ def build_thoughts_listing(thoughts):
         <nav class="sidebar">
             <h1>Joel Mulyadi</h1>
             <ul>
-                <li><a href="/index.html">Home</a></li>
                 <li><a href="/about.html">About</a></li>
                 <li><a href="/thoughts.html">Thoughts</a></li>
                 <li><a href="/questions.html">Questions</a></li>
@@ -212,7 +210,6 @@ def build_questions_page(questions):
         <nav class="sidebar">
             <h1>Joel Mulyadi</h1>
             <ul>
-                <li><a href="/index.html">Home</a></li>
                 <li><a href="/about.html">About</a></li>
                 <li><a href="/thoughts.html">Thoughts</a></li>
                 <li><a href="/questions.html">Questions</a></li>
@@ -278,7 +275,6 @@ def build_readings_page(readings):
         <nav class="sidebar">
             <h1>Joel Mulyadi</h1>
             <ul>
-                <li><a href="/index.html">Home</a></li>
                 <li><a href="/about.html">About</a></li>
                 <li><a href="/thoughts.html">Thoughts</a></li>
                 <li><a href="/questions.html">Questions</a></li>
